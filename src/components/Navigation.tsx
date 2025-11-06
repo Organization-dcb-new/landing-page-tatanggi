@@ -45,7 +45,9 @@ export function Navigation({ onNavigate }: NavigationProps) {
             className={`transition-colors ${
               isScrolled ? "text-slate-900" : "text-white"
             } cursor-pointer`}>
-            <span className="text-2xl font-bold">AURA TATANGGI</span>
+            <span style={{ fontSize: 22 }} className="font-bold">
+              AURA TATANGGI
+            </span>
           </button>
 
           {/* Desktop Menu */}
